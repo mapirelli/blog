@@ -12,4 +12,11 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   compatibilityDate: "2024-11-27",
+  vite: {
+    server: {
+      fs: {
+        strict: false, // Disable strict file serving restrictions
+      },
+    },
+  },
 });
