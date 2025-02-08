@@ -1,11 +1,8 @@
 <script setup lang="ts">
 const route = useRoute();
 
-// remove trailing slash from path
-const actualPath = route.path.replace(/\/$/, "");
-
-const { data: page } = await useAsyncData("page-" + actualPath, () => {
-  return queryCollection("content").path(actualPath).first();
+const { data: page } = await useAsyncData("page-" + route.path, () => {
+  return queryCollection("content").path(route.path).first();
 });
 
 if (!page.value) {
