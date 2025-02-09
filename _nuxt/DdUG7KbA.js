@@ -1,1 +1,0 @@
-import{j as s,c as r,i as t,Q as n}from"./C5-89-FH.js";const o={};function c(e,a){return t(),r("td",null,[n(e.$slots,"default")])}const _=Object.assign(s(o,[["render",c]]),{__name:"ProseTd"});export{_ as default};
