@@ -1,3 +1,3 @@
-# About Content Version 3
+# About Me
 
 [Back home](/)

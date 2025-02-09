@@ -4,15 +4,28 @@
 @source "../../../content";
 
 @theme {
-  --font-sans: "Public Sans", sans-serif;
+  --font-sans: sans-serif;
 }
 
 :root {
+  --ui-bg: var(--ui-color-neutral-50);
+  --ui-primary: var(--ui-color-primary-500);
 }
 
 .dark {
+  --ui-bg: var(--ui-color-neutral-950);
+  --ui-primary: var(--ui-color-primary-500);
 }
 
 h1 {
-  @apply text-4xl;
+  @apply text-4xl font-bold leading-20;
+}
+h2 {
+  @apply text-3xl font-bold leading-16;
+}
+h3 {
+  @apply text-2xl font-bold leading-12;
+}
+a {
+  @apply font-semibold underline;
 }
