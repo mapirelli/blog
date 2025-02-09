@@ -14,8 +14,9 @@
               <li><ULink to="/blog">Blog</ULink></li>
               <li><ULink to="/about">About</ULink></li>
               <li>
-                <UButton>Prova</UButton>
+                <UButton icon="i-lucide-sun" variant="subtle">Prova</UButton>
               </li>
+              <li><ColorMode></ColorMode></li>
             </ul>
           </nav>
         </div>
@@ -23,6 +24,14 @@
     </UContainer>
   </div>
   <UContainer>
+    <UAlert
+      title="Heads up!"
+      description="You can change the primary color in your app config."
+      icon="i-lucide-terminal"
+    />
+    <div class="my-4">
+      <USeparator label="Hello World" />
+    </div>
     <slot />
   </UContainer>
 </template>
