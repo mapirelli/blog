@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1 class="font-bold text-2xl text-(--ui-primary)">Nuxt UI v3</h1>
+    <h1 class="font-bold text-3xl text-(--ui-primary)">
+      Fullstack web developer
+    </h1>
 
     <UAlert
       title="Heads up!"

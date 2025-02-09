@@ -1,10 +1,10 @@
 <template>
   <div>
-    <header class="bg-white sticky top-0">
+    <header class="bg-white dark:bg-gray-950 sticky top-0">
       <UContainer>
         <div class="flex justify-between py-6">
           <div class="flex gap-2 items-center">
-            <UAvatar src="https://github.com/nuxt.png" size="lg" />
+            <UAvatar src="img/avatar.png" size="xl" />
             <div class="font-semibold text-lg">Mariano Pirelli Villanueva</div>
           </div>
           <div class="font-semibold text-lg">
