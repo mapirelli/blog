@@ -1,11 +1,6 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
-@source "../../../content/";
-
-@theme {
-}
-
 :root {
   --ui-container: var(--container-5xl);
   --ui-bg: var(--ui-color-neutral-50);
