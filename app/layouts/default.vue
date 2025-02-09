@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white sticky top-0">
-    <div class="mx-auto container">
+    <UContainer>
       <div class="flex justify-between py-6">
         <div class="font-semibold text-lg text-(--ui-primary)">
           Mariano Pirelli Villanueva
@@ -16,9 +16,9 @@
           </nav>
         </div>
       </div>
-    </div>
+    </UContainer>
   </div>
-  <div class="mx-auto container">
+  <UContainer>
     <slot />
-  </div>
+  </UContainer>
 </template>

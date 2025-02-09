@@ -9,11 +9,13 @@
 
 :root {
   --ui-bg: var(--ui-color-neutral-50);
+  --ui-text: var(--ui-color-neutral-900);
   --ui-primary: var(--ui-color-primary-500);
 }
 
 .dark {
   --ui-bg: var(--ui-color-neutral-950);
+  --ui-text: var(--ui-color-neutral-200);
   --ui-primary: var(--ui-color-primary-500);
 }
 
