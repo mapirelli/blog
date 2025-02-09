@@ -1,37 +1,33 @@
 <template>
-  <div class="bg-white sticky top-0">
-    <UContainer>
-      <div class="flex justify-between py-6">
-        <div class="flex gap-2 items-center">
-          <UAvatar src="https://github.com/nuxt.png" size="lg" />
-          <div class="font-semibold text-lg">Mariano Pirelli Villanueva</div>
+  <div>
+    <header class="bg-white sticky top-0">
+      <UContainer>
+        <div class="flex justify-between py-6">
+          <div class="flex gap-2 items-center">
+            <UAvatar src="https://github.com/nuxt.png" size="lg" />
+            <div class="font-semibold text-lg">Mariano Pirelli Villanueva</div>
+          </div>
+          <div class="font-semibold text-lg">
+            <nav>
+              <ul class="flex gap-4 items-center">
+                <li><ULink to="/">Home</ULink></li>
+                <li><ULink to="/now">Now</ULink></li>
+                <li><ULink to="/blog">Blog</ULink></li>
+                <li><ULink to="/about">About</ULink></li>
+                <li>
+                  <UButton icon="i-lucide-sun" variant="subtle">Prova</UButton>
+                </li>
+                <li><ColorMode /></li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <div class="font-semibold text-lg">
-          <nav>
-            <ul class="flex gap-4 items-center">
-              <li><ULink to="/">Home</ULink></li>
-              <li><ULink to="/now">Now</ULink></li>
-              <li><ULink to="/blog">Blog</ULink></li>
-              <li><ULink to="/about">About</ULink></li>
-              <li>
-                <UButton icon="i-lucide-sun" variant="subtle">Prova</UButton>
-              </li>
-              <li><ColorMode></ColorMode></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </UContainer>
+      </UContainer>
+    </header>
+    <main>
+      <UContainer>
+        <slot />
+      </UContainer>
+    </main>
   </div>
-  <UContainer>
-    <UAlert
-      title="Heads up!"
-      description="You can change the primary color in your app config."
-      icon="i-lucide-terminal"
-    />
-    <div class="my-4">
-      <USeparator label="Hello World" />
-    </div>
-    <slot />
-  </UContainer>
 </template>
