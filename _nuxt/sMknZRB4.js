@@ -1,1 +1,0 @@
-import{j as s,c as r,i as n,R as o}from"./CmPCXUE6.js";const t={};function c(e,a){return n(),r("li",null,[o(e.$slots,"default")])}const _=Object.assign(s(t,[["render",c]]),{__name:"ProseLi"});export{_ as default};
