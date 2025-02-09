@@ -8,6 +8,7 @@
 }
 
 :root {
+  --ui-container: var(--container-5xl);
   --ui-bg: var(--ui-color-neutral-50);
   --ui-text: var(--ui-color-neutral-900);
   --ui-primary: var(--ui-color-primary-500);
@@ -28,6 +29,6 @@ h2 {
 h3 {
   @apply text-2xl font-bold leading-12;
 }
-a {
-  @apply font-semibold underline;
+p > a {
+  @apply text-(--ui-primary) underline;
 }
